@@ -11,7 +11,7 @@ export default function Certifications() {
         
         {/* Section Title - Centered */}
         <div className="mb-12 text-center">
-          <div className="inline-block px-3.5 py-1 rounded-full bg-amber-950/90 border border-amber-400/50 text-amber-300 text-xs font-bold tracking-wider uppercase mb-2 shadow-[0_0_10px_rgba(245,158,11,0.2)]">
+          <div className="inline-block px-3.5 py-1 rounded-full bg-purple-950/90 border border-purple-400/50 text-brand-300 text-xs font-bold tracking-wider uppercase mb-2 shadow-[0_0_10px_rgba(168,85,247,0.2)]">
             Learning & Recognition
           </div>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
@@ -32,14 +32,14 @@ export default function Certifications() {
                     {item.category}
                   </span>
 
-                  <span className="text-xs text-amber-300 font-bold px-2.5 py-0.5 rounded-full bg-amber-950/90 border border-amber-400/40">
+                  <span className="text-xs text-brand-300 font-bold px-2.5 py-0.5 rounded-full bg-purple-950/90 border border-purple-400/40">
                     {item.date}
                   </span>
                 </div>
 
                 <div className="flex items-start space-x-3 text-left">
-                  <div className="p-2.5 rounded-xl bg-amber-950/90 border border-amber-400/50 text-amber-300 shrink-0 shadow-[0_0_12px_rgba(245,158,11,0.25)]">
-                    <Award className="w-5 h-5 text-amber-400" />
+                  <div className="p-2.5 rounded-xl bg-purple-950/90 border border-purple-400/50 text-brand-300 shrink-0 shadow-[0_0_12px_rgba(168,85,247,0.25)]">
+                    <Award className="w-5 h-5 text-brand-400" />
                   </div>
                   <div>
                     <h3 className="text-base font-extrabold text-white leading-snug text-left">

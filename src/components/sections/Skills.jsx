@@ -4,25 +4,13 @@ import { portfolioData } from '../../data/portfolioData';
 export default function Skills() {
   const { skills } = portfolioData;
 
-  const getLevelBadgeClass = (level) => {
-    switch (level) {
-      case 'Working Knowledge':
-        return 'bg-emerald-950/80 border-emerald-400/40 text-emerald-300';
-      case 'Familiar':
-        return 'bg-sky-950/80 border-sky-400/40 text-sky-300';
-      case 'Developing':
-      default:
-        return 'bg-purple-950/90 border-purple-400/40 text-purple-200';
-    }
-  };
-
   return (
     <section id="skills" className="py-16 md:py-24 bg-[#0b0712] border-b border-purple-900/30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Title - Centered */}
         <div className="mb-12 text-center">
-          <div className="inline-block px-3.5 py-1 rounded-full bg-emerald-950/90 border border-emerald-400/50 text-emerald-300 text-xs font-bold tracking-wider uppercase mb-2 shadow-[0_0_10px_rgba(16,185,129,0.2)]">
+          <div className="inline-block px-3.5 py-1 rounded-full bg-purple-950/90 border border-purple-400/50 text-brand-300 text-xs font-bold tracking-wider uppercase mb-2 shadow-[0_0_10px_rgba(168,85,247,0.2)]">
             Competencies
           </div>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
@@ -51,7 +39,7 @@ export default function Skills() {
                       <span className="text-sm font-medium text-slate-200 text-left">
                         {skill.name}
                       </span>
-                      <span className={`text-xs font-semibold px-2.5 py-0.5 rounded-full border shadow-2xs ${getLevelBadgeClass(skill.level)}`}>
+                      <span className="text-xs text-brand-300 font-semibold px-2.5 py-0.5 rounded-full bg-purple-950/90 border border-purple-400/40 shadow-xs">
                         {skill.level}
                       </span>
                     </div>

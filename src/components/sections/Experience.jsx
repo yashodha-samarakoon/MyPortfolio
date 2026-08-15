@@ -10,7 +10,7 @@ export default function Experience() {
         
         {/* Section Title - Centered */}
         <div className="mb-12 text-center">
-          <div className="inline-block px-3.5 py-1 rounded-full bg-emerald-950/90 border border-emerald-400/50 text-emerald-300 text-xs font-bold tracking-wider uppercase mb-2 shadow-[0_0_10px_rgba(16,185,129,0.2)]">
+          <div className="inline-block px-3.5 py-1 rounded-full bg-purple-950/90 border border-purple-400/50 text-brand-300 text-xs font-bold tracking-wider uppercase mb-2 shadow-[0_0_10px_rgba(168,85,247,0.2)]">
             Exposure & Roles
           </div>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
@@ -33,7 +33,7 @@ export default function Experience() {
                   </h3>
                 </div>
 
-                <span className="text-xs text-emerald-300 font-semibold px-3 py-1 rounded-full bg-emerald-950/90 border border-emerald-400/40 self-start sm:self-center">
+                <span className="text-xs text-brand-300 font-semibold px-3 py-1 rounded-full bg-purple-950/90 border border-purple-400/40 self-start sm:self-center">
                   {item.duration}
                 </span>
               </div>

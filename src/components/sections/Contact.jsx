@@ -18,7 +18,7 @@ export default function Contact() {
         
         {/* Section Title */}
         <div className="mb-12 text-center">
-          <div className="inline-block px-3.5 py-1 rounded-full bg-rose-950/90 border border-rose-400/50 text-rose-300 text-xs font-bold tracking-wider uppercase mb-2 shadow-[0_0_10px_rgba(244,63,94,0.2)]">
+          <div className="inline-block px-3.5 py-1 rounded-full bg-purple-950/90 border border-purple-400/50 text-brand-300 text-xs font-bold tracking-wider uppercase mb-2 shadow-[0_0_10px_rgba(168,85,247,0.2)]">
             Get In Touch
           </div>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
@@ -66,8 +66,8 @@ export default function Contact() {
           {/* LinkedIn Card */}
           <div className="p-6 rounded-xl card-glow space-y-4 flex flex-col items-center justify-between text-center">
             <div className="space-y-2 flex flex-col items-center text-center">
-              <div className="p-2.5 rounded-xl bg-cyan-950/90 border border-cyan-400/50 text-cyan-300 shadow-[0_0_12px_rgba(6,182,212,0.25)]">
-                <Linkedin className="w-5 h-5 text-cyan-400" />
+              <div className="p-2.5 rounded-xl bg-purple-950/90 border border-purple-400/50 text-brand-300 shadow-[0_0_12px_rgba(168,85,247,0.25)]">
+                <Linkedin className="w-5 h-5 text-brand-400" />
               </div>
               <h3 className="text-base font-bold text-white">LinkedIn</h3>
               <p className="text-xs font-mono text-slate-200 break-all text-center">
@@ -79,7 +79,7 @@ export default function Contact() {
               href={personalInfo.linkedinUrl}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center justify-center px-3.5 py-2 rounded-lg bg-cyan-950/90 border border-cyan-400/50 text-white hover:bg-cyan-900/90 hover:border-cyan-400 font-bold text-xs transition-colors w-full"
+              className="inline-flex items-center justify-center px-3.5 py-2 rounded-lg bg-purple-950/90 border border-purple-400/50 text-white hover:bg-purple-900/90 hover:border-brand-400 font-bold text-xs transition-colors w-full"
             >
               Connect
             </a>
@@ -88,8 +88,8 @@ export default function Contact() {
           {/* GitHub Card */}
           <div className="p-6 rounded-xl card-glow space-y-4 flex flex-col items-center justify-between text-center">
             <div className="space-y-2 flex flex-col items-center text-center">
-              <div className="p-2.5 rounded-xl bg-emerald-950/90 border border-emerald-400/50 text-emerald-300 shadow-[0_0_12px_rgba(16,185,129,0.25)]">
-                <Github className="w-5 h-5 text-emerald-400" />
+              <div className="p-2.5 rounded-xl bg-purple-950/90 border border-purple-400/50 text-brand-300 shadow-[0_0_12px_rgba(168,85,247,0.25)]">
+                <Github className="w-5 h-5 text-brand-400" />
               </div>
               <h3 className="text-base font-bold text-white">GitHub</h3>
               <p className="text-xs font-mono text-slate-200 break-all text-center">
@@ -101,7 +101,7 @@ export default function Contact() {
               href={personalInfo.githubUrl}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center justify-center px-3.5 py-2 rounded-lg bg-emerald-950/90 border border-emerald-400/50 text-white hover:bg-emerald-900/90 hover:border-emerald-400 font-bold text-xs transition-colors w-full"
+              className="inline-flex items-center justify-center px-3.5 py-2 rounded-lg bg-purple-950/90 border border-purple-400/50 text-white hover:bg-purple-900/90 hover:border-brand-400 font-bold text-xs transition-colors w-full"
             >
               View Profile
             </a>

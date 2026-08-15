@@ -10,7 +10,7 @@ export default function Education() {
         
         {/* Section Title - Centered */}
         <div className="mb-12 text-center">
-          <div className="inline-block px-3.5 py-1 rounded-full bg-indigo-950/90 border border-indigo-400/50 text-indigo-300 text-xs font-bold tracking-wider uppercase mb-2 shadow-[0_0_10px_rgba(99,102,241,0.2)]">
+          <div className="inline-block px-3.5 py-1 rounded-full bg-purple-950/90 border border-purple-400/50 text-brand-300 text-xs font-bold tracking-wider uppercase mb-2 shadow-[0_0_10px_rgba(168,85,247,0.2)]">
             Academic Qualifications
           </div>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
@@ -34,7 +34,7 @@ export default function Education() {
                 </p>
               </div>
 
-              <span className="text-xs text-amber-300 font-bold px-3.5 py-1 rounded-full bg-amber-950/90 border border-amber-400/40 self-start sm:self-center shadow-xs">
+              <span className="text-xs text-brand-300 font-bold px-3.5 py-1 rounded-full bg-purple-950/90 border border-purple-400/40 self-start sm:self-center shadow-xs">
                 {education.university.duration}
               </span>
             </div>
