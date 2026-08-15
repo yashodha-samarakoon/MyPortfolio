@@ -4,6 +4,18 @@ import { portfolioData } from '../../data/portfolioData';
 export default function Skills() {
   const { skills } = portfolioData;
 
+  const getLevelBadgeClass = (level) => {
+    switch (level) {
+      case 'Working Knowledge':
+        return 'bg-emerald-950/90 border-emerald-400/50 text-emerald-300 shadow-[0_0_8px_rgba(52,211,153,0.15)]';
+      case 'Familiar':
+        return 'bg-cyan-950/90 border-cyan-400/50 text-cyan-300 shadow-[0_0_8px_rgba(56,189,248,0.15)]';
+      case 'Developing':
+      default:
+        return 'bg-amber-950/90 border-amber-400/50 text-amber-300 shadow-[0_0_8px_rgba(251,191,36,0.15)]';
+    }
+  };
+
   return (
     <section id="skills" className="py-16 md:py-24 bg-[#0b0712] border-b border-purple-900/30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -39,7 +51,7 @@ export default function Skills() {
                       <span className="text-sm font-medium text-slate-200 text-left">
                         {skill.name}
                       </span>
-                      <span className="text-xs text-brand-300 font-semibold px-2.5 py-0.5 rounded-full bg-purple-950/90 border border-purple-400/40 shadow-xs">
+                      <span className={`text-xs font-semibold px-2.5 py-0.5 rounded-full border ${getLevelBadgeClass(skill.level)}`}>
                         {skill.level}
                       </span>
                     </div>
