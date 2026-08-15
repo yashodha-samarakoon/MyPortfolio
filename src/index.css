@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  body {
+    background-color: #0b0712;
+    color: #f8fafc;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom purple scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0712;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6b21a8;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c084fc;
+}
+
+/* Elegant dark purple card styling with high contrast readability */
+.card-glow {
+  background-color: #160d27;
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  border-top: 3px solid #a855f7;
+  border-radius: 0.75rem;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 6px 20px -2px rgba(0, 0, 0, 0.6), 0 0 12px rgba(168, 85, 247, 0.15);
+}
+
+.card-glow:hover {
+  border-color: rgba(192, 132, 252, 0.7);
+  border-top-color: #c084fc;
+  box-shadow: 0 10px 30px -4px rgba(0, 0, 0, 0.8), 0 0 25px rgba(168, 85, 247, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Inner highlighted block inside cards */
+.inner-block {
+  background-color: #110922;
+  border: 1px solid rgba(168, 85, 247, 0.25);
+  border-radius: 0.5rem;
+}
+
+/* Accessible focus outlines */
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #c084fc;
+  outline-offset: 2px;
+}
+
+

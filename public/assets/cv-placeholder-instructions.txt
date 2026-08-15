@@ -1,0 +1,3 @@
+Place your actual cv.pdf file in this directory (public/assets/cv.pdf).
+The portfolio website buttons ("Download CV" and "View CV") point to /assets/cv.pdf.
+d:\UNIVERSITY WORK\2nd Year\1st Semester\PPD\Activities\Deep Purple Professional College Student CV Resume (2).pdf
